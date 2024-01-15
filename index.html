@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MiCorazon</title>
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Mulish"/>
+    <link rel="stylesheet" href="style.css">
+
+    <script src="https://kit.fontawesome.com/cf6118e5d6.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="#">MiCorazon</a></li>
+            <li class="hideOnMobile"><a href="#">Home</a></li>
+            <li class="hideOnMobile"><a href="#">About</a></li>
+            <li class="hideOnMobile"><a href="#">Blog</a></li>
+            <li class="hideOnMobile"><a href="#">Contact</a></li>
+            <li class="sidebarh" onclick="showSideBar()">
+                <a href="#">
+                    <!--<i class="fa-solid fa-bars"></i>-->
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="#fff" height="26" viewBox="0 -960 960 960" width="26"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg>
+                </a>
+            </li>
+        </ul>
+
+        <ul class="sidebar">
+            <li onclick="hideSideBar()">
+                <a href="#">
+                    <!--<i class="fa-solid fa-xmark"></i>-->
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="#fff" height="26" viewBox="0 -960 960 960" width="26"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg>
+                </a>
+            </li>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+
+</body>
+</html>
